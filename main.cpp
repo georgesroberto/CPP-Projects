@@ -29,13 +29,14 @@ public:
          cout<<"StudentID: "<<studentId<<endl<<"units: "<<units<<endl<<"Gender: "<<gender<<endl;
     }
 };
-    int main()
- {
+
+int main()
+{
     StudentRecord Jmart("J27S/MSA/2453/2008",16,'F');
 
     //call the method
     Jmart.printRecord();
- return 0;
- }
+    return 0;
+}
 
 
